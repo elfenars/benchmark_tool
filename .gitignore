@@ -1,0 +1,6 @@
+benchmarks/*/output/*
+!benchmarks/*/output/.keep
+
+!plots/
+plots/*
+!plots/.keep

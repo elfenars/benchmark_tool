@@ -1,7 +1,9 @@
 #!/bin/bash
+# Always use these in your benchmarks.
 DATE=$1
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+# Do whatever.
 TIMEOUT=3
 
 ab \

@@ -1,6 +1,6 @@
 # load_test
 
-_Run a load test using Apache Benchmark against the current PI infrastructure_
+_Run a load test using Apache Benchmark against whatever you want._
 
 ### IMPORTANT
 
@@ -19,8 +19,7 @@ _...and even so, expect him to probably say "NO" anyway..._
 
 ### Usage:
 
-You need to set the total amount of requests you want to make and how many of them are going to run concurrently using the `TOTAL` and `CONCURRENT` env vars.
-
+TODO: Use short/long opts and run more than one bench at the same time.
 
 ```bash
  $ ./run_benchmarks.sh <total_requests> <concurrency> <benchmark_name>
